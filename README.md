@@ -1,6 +1,6 @@
 # Karim Aly - Portfolio
 
-![Portfolio Screenshot](./portfolio-screenshot.png)
+
 
 A modern, responsive portfolio website showcasing my work as a Frontend Engineer. Built with Next.js, TypeScript, Tailwind CSS, and GSAP animations.
 
