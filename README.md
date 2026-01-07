@@ -1,39 +1,57 @@
-# 🚀 My Portfolio Website
+# Karim Aly - Portfolio
 
-![image](https://github.com/user-attachments/assets/ade45c4b-b2cb-46cb-b8a6-31cad3bd0c5a)
+![Portfolio Screenshot](./portfolio-screenshot.png)
 
-[Checkout the initial design here](https://www.figma.com/design/56hODoGFDzZfZduBPfQeBg/New-Portfolio?node-id=18-1550&t=73vRMGTW0gspTSND-1)
+A modern, responsive portfolio website showcasing my work as a Frontend Engineer. Built with Next.js, TypeScript, Tailwind CSS, and GSAP animations.
 
-## 🚨 Forking this repo (please read!)
+## 🚀 Features
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+- **Modern Design**: Clean, minimalist interface with smooth animations
+- **Dark/Light Mode**: Theme toggle for personalized viewing experience
+- **Responsive**: Fully responsive design that works on all devices
+- **Interactive Elements**: Smooth scrolling, particle animations, and scroll-triggered effects
+- **Performance Optimized**: Built with Next.js for optimal performance
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## 🛠 Tech Stack
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Next.js docs](https://nextjs.org/docs).
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Smooth Scrolling**: Lenis
 
-If you like my work, give it a star⭐.
-
-### TL;DR
-
-Yes, you can fork this repo. Please give proper credit to the original designer and maintainer. Thanks!
-
-## 🛠 Installation & Set Up
-
-First, run the development server:
+## 📦 Installation
 
 ```bash
+# Install dependencies
 pnpm install
+
+# Run development server
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-## 🤝 Contributing
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+## 🏗 Build
 
-## Credit
-_This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
+```bash
+# Create production build
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+## 📧 Contact
+
+- **Email**: karimdev99@gmail.com
+- **LinkedIn**: [karimaly99](https://www.linkedin.com/in/karimaly99/)
+- **GitHub**: [karimalydev](https://github.com/karimalydev)
 
 ## 📄 License
+
 This project is open source and available under the [MIT License](./LICENSE).
+
+---
+
+Built with ❤️ by Karim Aly
