@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Light Mode - Core Colors */
+        --background: 0 0% 100%;
+        --background-light: 92 8% 98%; /* White with 8% Forest Green tint */
+        --foreground: 100 100% 10%; /* Forest Green */
+
+        --card: 0 0% 100%;
+        --card-foreground: 100 100% 10%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 100 100% 10%;
+
+        --primary: 100 72% 67%; /* Bright Green */
+        --primary-foreground: 100 100% 10%; /* Forest Green */
+        --secondary: 100 72% 67%; /* Bright Green */
+        --secondary-foreground: 100 100% 10%;
+        --muted: 92 8% 95%;
+        --muted-foreground: 100 30% 40%;
+        --accent: 100 72% 67%; /* Bright Green */
+        --accent-foreground: 100 100% 10%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 92 8% 90%;
+        --input: 92 8% 95%;
+        --ring: 100 72% 67%; /* Bright Green */
+        
+        /* Secondary Colors */
+        --bright-orange: 25 100% 78%;
+        --bright-yellow: 52 100% 71%;
+        --bright-blue: 180 45% 75%;
+        --bright-pink: 320 100% 92%;
+        --dark-purple: 280 64% 11%;
+        --dark-gold: 48 35% 17%;
+        --dark-charcoal: 80 8% 13%;
+        --dark-maroon: 0 76% 11%;
+        
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+
+    .dark {
+        /* Dark Mode - Core Colors */
+        --background: 100 100% 10%; /* Forest Green */
+        --background-light: 100 100% 8%; /* Darker Forest Green */
+        --foreground: 100 72% 67%; /* Bright Green */
+
+        --card: 100 100% 8%;
+        --card-foreground: 100 72% 67%;
+        --popover: 100 100% 8%;
+        --popover-foreground: 100 72% 67%;
+
+        --primary: 100 72% 67%; /* Bright Green */
+        --primary-foreground: 100 100% 10%; /* Forest Green */
+        --secondary: 100 72% 67%; /* Bright Green */
+        --secondary-foreground: 100 100% 10%;
+        --muted: 100 100% 15%;
+        --muted-foreground: 100 30% 60%;
+        --accent: 100 72% 67%; /* Bright Green */
+        --accent-foreground: 100 100% 10%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 100 100% 20%;
+        --input: 100 100% 15%;
+        --ring: 100 72% 67%; /* Bright Green */
+    }
+}
+
+@layer base {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        @apply border-border !cursor-none;
+    }
+    body {
+        @apply bg-background text-foreground font-roboto-flex;
+    }
+}
+
+@layer components {
+    .grid {
+        @apply gap-[25px];
+    }
+
+    .markdown-text ul {
+        @apply pl-5 mt-2 list-disc;
+    }
+}
